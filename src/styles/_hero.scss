@@ -1,0 +1,48 @@
+.hero
+{
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../../images/aniversario001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container
+    {
+        position: relative;
+    }
+
+    &::before
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        content: '';
+        opacity: .4;
+    }
+
+    &__text
+    {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        font-size: 55px;
+        line-height: 56px;
+        color: white;
+    }
+
+    @media (max-width: 640px)
+    {
+        &__text
+        {
+            font-size: 32px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+
+        background-image: url(../../images/aniversario0012.jpg);
+        background-size: cover;     
+    }
+}
