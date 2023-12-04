@@ -1,7 +1,7 @@
 .hero
 {
-    padding-top: 64px;
-    padding-bottom: 100px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     background-image: url(../../images/aniversario001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,15 +21,24 @@
         height: 100%;
         background-color: rgb(255, 255, 255);
         content: '';
-        opacity: .4;
+        opacity: .3;
     }
 
     &__text
     {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 5%;
+        padding-bottom: 5%;
         font-size: 55px;
-        line-height: 56px;
+        line-height: 5px;
+        color: white;
+    }
+
+    &__contador
+    {
+        padding-top: 3%;
+        padding-bottom: 1%;
+        font-size: 25px;
+        line-height: 5px;
         color: white;
     }
 
@@ -37,12 +46,14 @@
     {
         &__text
         {
-            font-size: 32px;
-            line-height: 24px;
+            font-size: 40px;
             margin: 24px 0;
         }
 
         background-image: url(../../images/aniversario0012.jpg);
-        background-size: cover;     
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        overflow: hidden;
     }
 }

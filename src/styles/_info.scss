@@ -1,0 +1,31 @@
+.info
+{
+    background-color: white;
+    opacity: .4;
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 18%;
+    margin-right: 47%;
+    display: block;
+    justify-content: space-between;
+
+    &__item
+    {
+        color: rgb(0, 0, 0);
+        gap: 40px;
+        display: flex;
+        font-size: 33px;
+        padding: 5% 5%;
+
+        b
+        {
+            font-size: 26px;
+        }
+    }
+
+    @media (max-width: 640px)
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

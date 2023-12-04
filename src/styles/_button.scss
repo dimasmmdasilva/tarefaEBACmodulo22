@@ -1,0 +1,22 @@
+.button
+{
+    padding: 10px;
+    font-size: 33px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    margin-left: 76.5%;
+    margin-top: 5%;
+
+    &__primeiro
+    {
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    @media (max-width: 640px)
+    {
+        font-size: 23;
+        margin-left: 79%;
+    }
+}
