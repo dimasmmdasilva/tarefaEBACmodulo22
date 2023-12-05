@@ -14,21 +14,29 @@
     }
 
 
-    &__imagens
+    &__imagem
     {
-        max-height: 500px;
-        margin-left: 30%;
+        max-width: 50%;
+        overflow: hidden;
+        margin-left: 5%;
 
-        @media (max-width: 640px)
+        @media (max-width: 640px) 
         {
-            max-width: 100%;
-            padding: 3%;
-            margin: auto;
+        max-width: 100%;
+        margin-top: 10%;
+        }
+
+        img 
+        {
+        width: 100%;
+        height: auto;
+        display: block;
         }
     }
-
+    
     &__info
     {
+        padding: 0;
         color: rgb(0, 0, 0);
         h2
         {
@@ -37,6 +45,8 @@
         p
         {
             font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
         @media (max-width: 640px)
